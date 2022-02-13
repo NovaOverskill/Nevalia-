@@ -1,0 +1,40 @@
+baseURL: https://azuriom.com/
+languageCode: "en"
+defaultContentLanguageInSubdir: true
+title: "Azuriom"
+
+enableRobotsTXT: true
+disableKinds: [taxonomy, term, RSS, sitemap]
+disableHugoGeneratorInject: true
+pygmentsUseClasses: true
+
+params:
+  twitter: Azuriom
+
+languages:
+  en:
+    languageName: English
+    contentDir: content/en
+    params:
+      code: en_US
+  fr:
+    languageName: Français
+    contentDir: content/fr
+    params:
+      code: fr_FR
+      twitter: AzuriomFR
+  nl:
+    languageName: Nederlands
+    contentDir: content/nl
+    params:
+      code: nl_NL
+  de:
+    languageName: Deutsch
+    contentDir: content/de
+    params:
+      code: de_DE
+  cs:
+    languageName: Czech
+    contentDir: content/cs
+    params:
+      code: cs_CZ
